@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Peter Jakowetz is Managing Director and Principal Consultant at PrivSec Consulting Ltd. With a broad experience, consulting within both private and Government sectors he is able to bring a pragmatic, customer centric approach to security and privacy.
+I am Managing Director and Principal Consultant at PrivSec Consulting Ltd. With a broad experience, consulting within both private and Government sectors I am able to bring a pragmatic, customer centric approach to security and privacy.
 
-His recent focus has been assisting organisations through the certification and accreditation process, providing consultancy from design review through to risk assessment, audit, certification and risk management. His technical background coupled with governance and compliance experience provides a very good balance between technical understanding and business requirements.
+My recent focus has been assisting organisations through the certification and accreditation process, providing consultancy from design review through to risk assessment, audit, certification and risk management. My technical background coupled with governance and compliance experience provides a very good balance between technical understanding and business requirements.
 
 Some of my previous presentations are below:
 - [OWASP Day 2025 - Computer Says No](https://appsec.org.nz/conference/speakers.html)
