@@ -1,0 +1,25 @@
+title: Peter Jakowetz
+description: "Personal site of Peter Jakowetz — Wellington, New Zealand."
+url: "https://jakowetz.nz"
+
+# Top navigation. Add a line here + create a matching page file to add a subpage.
+nav:
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Footer links
+contacts:
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/in/REPLACE-ME"
+  - label: "PrivSec Consulting"
+    url: "https://privsec.nz"
+  - label: "Email"
+    url: "mailto:peter@jakowetz.nz"
+
+plugins:
+  - jekyll-seo-tag
+
+# GitHub Pages builds Jekyll sites automatically — no build step needed.
+# To preview locally: bundle install && bundle exec jekyll serve

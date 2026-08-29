@@ -1,0 +1,8 @@
+<footer class="site-footer">
+  <div class="footer-links">
+    {% for c in site.contacts %}
+    <a href="{{ c.url }}"{% unless c.url contains 'mailto' %} target="_blank" rel="noopener"{% endunless %}>{{ c.label }}</a>
+    {% endfor %}
+  </div>
+  <p class="footer-note">&copy; {{ site.time | date: "%Y" }} Peter Jakowetz &middot; Wellington, NZ</p>
+</footer>

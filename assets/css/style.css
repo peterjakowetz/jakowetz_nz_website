@@ -1,0 +1,175 @@
+:root{
+  --bg:#e6e1d2;
+  --ink:#2b2a22;
+  --muted:#6f6c5c;
+  --accent:#3f5c52;
+  --line:#cec7b0;
+  --max-width:680px;
+}
+
+*{box-sizing:border-box;}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Karla', sans-serif;
+  font-size:1.05rem;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+
+a{
+  color:inherit;
+}
+
+/* --- Header / nav --- */
+
+.site-header{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:2.6rem 1.5rem 1.6rem 1.5rem;
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:0.8rem 1.6rem;
+  border-bottom:1px solid var(--line);
+}
+
+.wordmark{
+  font-family:'Newsreader', serif;
+  font-weight:500;
+  font-size:1.15rem;
+  text-decoration:none;
+  color:var(--ink);
+}
+
+.site-header nav{
+  display:flex;
+  gap:1.6rem;
+}
+
+.site-header nav a{
+  position:relative;
+  text-decoration:none;
+  font-size:0.92rem;
+  color:var(--muted);
+  padding-bottom:3px;
+}
+
+.site-header nav a::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:100%;
+  bottom:0;
+  height:1px;
+  background:var(--accent);
+  transition:right 0.25s ease;
+}
+
+.site-header nav a:hover,
+.site-header nav a.current{
+  color:var(--ink);
+}
+
+.site-header nav a:hover::after,
+.site-header nav a.current::after{
+  right:0;
+}
+
+/* --- Content --- */
+
+.page-wrap{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:3rem 1.5rem 4rem 1.5rem;
+}
+
+.hero h1{
+  font-family:'Newsreader', serif;
+  font-weight:500;
+  font-size:clamp(2.1rem, 5vw, 2.7rem);
+  margin:0 0 1.4rem 0;
+  letter-spacing:-0.01em;
+}
+
+.hero p{
+  margin:0 0 1.3rem 0;
+  max-width:56ch;
+}
+
+.hero p:first-of-type{
+  font-family:'Newsreader', serif;
+  font-style:italic;
+  font-size:1.2rem;
+  color:var(--ink);
+}
+
+article.page h1{
+  font-family:'Newsreader', serif;
+  font-weight:500;
+  font-size:clamp(1.8rem, 4vw, 2.2rem);
+  margin:0 0 1.6rem 0;
+}
+
+article.page p{
+  margin:0 0 1.3rem 0;
+  max-width:60ch;
+}
+
+p a{
+  color:var(--accent);
+  text-decoration-color:var(--line);
+  text-underline-offset:3px;
+}
+
+p a:hover{
+  text-decoration-color:var(--accent);
+}
+
+/* --- Footer --- */
+
+.site-footer{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:2rem 1.5rem 3rem 1.5rem;
+  border-top:1px solid var(--line);
+}
+
+.footer-links{
+  display:flex;
+  gap:1.4rem;
+  flex-wrap:wrap;
+  margin-bottom:0.9rem;
+}
+
+.footer-links a{
+  font-size:0.85rem;
+  text-decoration:none;
+  color:var(--muted);
+  border-bottom:1px solid transparent;
+}
+
+.footer-links a:hover{
+  color:var(--ink);
+  border-color:var(--accent);
+}
+
+.footer-note{
+  margin:0;
+  font-size:0.78rem;
+  color:var(--muted);
+}
+
+@media (max-width:480px){
+  .site-header{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+}
