@@ -3,6 +3,6 @@ layout: home
 ---
 # Peter Jakowetz
 
-I run [PrivSec Consulting](https://privsec.nz) out of Wellington. Before that I spent years in live events and TV production, which is a strange thing to mention on a security consultant's website, but it's the honest answer to "how did you get here."
+I'm a business owner, running [PrivSec Consulting](https://privsec.nz) out of Wellington, Aotearoa. In past lives, I have worked in live entertainment and TV, and enjoy spending time in the outdoors, tinkering, and working with Electronics. 
 
-This site is mostly a placeholder while I get around to writing something more useful. In the meantime, [about](/about/) has a bit more of the story, and [contact](/contact/) has the ways to reach me.
+This site is mostly a placeholder while I get around to writing something more useful. In the meantime, [about](/about/) has a bit more info about me, and [contact](/contact/) has the ways to reach me.
